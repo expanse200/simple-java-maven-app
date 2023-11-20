@@ -35,8 +35,13 @@
     </plugins>
   </build>
   <properties>
+   <maven.compiler.source>1.6</maven.compiler.source>
+   <maven.compiler.target>1.6</maven.compiler.target>
+  </properties>
+  <!-- remplacer par 1.6
+  <properties>
    <maven.compiler.source>16</maven.compiler.source>
    <maven.compiler.target>16</maven.compiler.target>
- </properties>
-
+  </properties>
+-->
 </project>
